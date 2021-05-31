@@ -1,0 +1,20 @@
+<h1>Stupid Coach</h1>
+
+<div class="constainer">
+<div class='you'>
+  <ol>
+    <%= @question %>
+    <p><i>-You</i></p>
+  </ol>
+</div>
+
+<div class='coach'>
+  <ol>
+    <strong><%= @answer %> </strong>
+    <p><i>-Your Coach</i></p>
+  </ol>
+</div>
+</div>
+
+
+<%= link_to 'Ask a new question', '/ask'%>
